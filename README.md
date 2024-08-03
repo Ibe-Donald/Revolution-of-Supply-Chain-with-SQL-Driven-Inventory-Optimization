@@ -1,4 +1,5 @@
 # Revolution-of-Supply-Chain-with-SQL-Driven-Inventory-Optimization
+![](what-is-supply-chain-1024x1024.png)
 The primary objectives of this project are to implement a sophisticated inventory optimization system utilizing MySQL and enable data-driven decision-making in inventory management by leveraging MySQL analytics to reduce costs and enhance customer satisfaction.
 
 In this analysis, we explored and cleaned our datasets from tech_electro schema to gain insights into our inventory data, sales data, product information, and external factors affecting our business. The goal was to understand the trends in sales, identify the factors contributing to these trends, and provide data-driven recommendations for optimizing inventory management.
