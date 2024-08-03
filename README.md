@@ -1,11 +1,11 @@
 # Revolution-of-Supply-Chain-with-SQL-Driven-Inventory-Optimization
 The primary objectives of this project are to implement a sophisticated inventory optimization system utilizing MySQL and enable data-driven decision-making in inventory management by leveraging MySQL analytics to reduce costs and enhance customer satisfaction.
 
-In this analysis, we explored and cleaned our datasets from tech_electro schema to gain insights into our inventory data, sales data, product information, and external factors affecting our business. The goal was to understand the trends in sales, identify the factors contributing to these trends, and provide data-driven recommendations for optimizing inventory management.
+In this analysis, I explored and cleaned our datasets from tech_electro schema to gain insights into the inventory data, sales data, product information, and external factors affecting our business. The goal was to understand the trends in sales, identify the factors contributing to these trends, and provide data-driven recommendations for optimizing inventory management.
 
 Data Exploration and Cleaning
 ---
-We began by examining the structure of our datasets: external_factors, sales_data, and product_information. After understanding the columns and their data types, we performed several data cleaning operations, including:
+I began by examining the structure of the datasets: external_factors, sales_data, and product_information. After understanding the columns and their data types, I performed several data cleaning operations, including:
 
 Converting date columns to the correct DATE format.
 
@@ -19,17 +19,17 @@ Detecting and removing duplicate entries.
 
 Data Integration
 ---
-We created integrated views to combine relevant information from different tables. This integration allowed us to perform comprehensive analysis by joining sales_data with product_information and further integrating with external_factors to form a consolidated inventory_data view.
+I created integrated views to combine relevant information from different tables. This integration allowed me to perform comprehensive analysis by joining sales_data with product_information and further integrating with external_factors to form a consolidated inventory_data view.
 
 Descriptive Analysis
 ---
 Average Sales
 ---
-We calculated the average sales for each product and found that Product_ID 2010 had the highest average sales of 19,669. This insight is critical for inventory optimization and demand forecasting.
+I calculated the average sales for each product and found that Product_ID 2010 had the highest average sales of 19,669. This insight is critical for inventory optimization and demand forecasting.
 
 Daily Total Sales
 ---
-We analyzed the total sales for each day, which helps in understanding peak sales periods and planning inventory accordingly.
+I analyzed the total sales for each day, which helps in understanding peak sales periods and planning inventory accordingly.
 
 Sales Year with Most Sales
 ---
@@ -37,7 +37,7 @@ The analysis revealed that the year 2020 recorded the highest number of sales wi
 
 Year with Most Sales Amount
 ---
-We observed that 2020 also had the highest sales amount of 661,555.21, indicating not just a high volume of sales but also a high value.
+I observed that 2020 also had the highest sales amount of 661,555.21, indicating not just a high volume of sales but also a high value.
 
 Most Purchased Product
 ---
@@ -45,7 +45,7 @@ Smartphones emerged as the most purchased product category, highlighting the nee
 
 Role of Promotions in Sales
 ---
-By analyzing the impact of promotions on sales, we discovered that promotions significantly contributed to the increase in sales across different product categories. This insight can guide future promotional strategies.
+By analyzing the impact of promotions on sales, I discovered that promotions significantly contributed to the increase in sales across different product categories. This insight can guide future promotional strategies.
 
 Revenue Generation by Product Category
 ---
@@ -53,7 +53,7 @@ Although smartphones had the highest sales count, electronics generated the most
 
 Monthly Sales Trends for Home Appliances in 2022
 ---
-We noticed a spike in the purchase of home appliances in August 2022. Further investigation showed that promotions played a vital role in this increase, emphasizing the effectiveness of targeted promotions.
+I noticed a spike in the purchase of home appliances in August 2022. Further investigation showed that promotions played a vital role in this increase, emphasizing the effectiveness of targeted promotions.
 
 Recommendations
 ---
